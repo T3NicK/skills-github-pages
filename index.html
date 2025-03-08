@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>39 Motivos Porque Eu Te Amo</title>
+    <style>
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0); }
+        }
+
+        @keyframes fireworks {
+            0% { opacity: 1; transform: scale(1); }
+            100% { opacity: 0; transform: scale(2); }
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            overflow-x: hidden;
+            text-align: center;
+        }
+
+        header {
+            background-color: #ff77a9;
+            color: white;
+            padding: 20px;
+        }
+
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            display: inline-block;
+            position: relative;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+
+        .button {
+            background-color: #ff77a9;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #f44369;
+        }
+
+        .hidden {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .show {
+            display: block;
+            opacity: 1;
+        }
+
+        .cinnamoroll {
+            width: 100px;
+            position: fixed;
+            bottom: -120px;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: float 3s infinite ease-in-out;
+            display: none;
+        }
+
+        /* Botão de "Não" fugindo */
+        #botaoNao {
+            position: absolute;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .pergunta {
+            font-size: 1.5em;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        /* Fogos e corações */
+        .fireworks {
+            position: fixed;
+            width: 50px;
+            height: 50px;
+            background: red;
+            border-radius: 50%;
+            opacity: 0;
+            animation: fireworks 1s linear infinite;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>39 Motivos Porque Eu Te Amo</h1>
+    </header>
+
+    <section>
+        <p>Esse site é um lembrete diário de tudo o que você significa para mim. Aqui estão 39 razões pelas quais te amo...</p>
+
+        <ul id="motivos">
+            <li>✨ 1. Porque é incrível, que mesmo após dois anos sem se ver e se falar, quando te vi e conversamos, pude sentir tudo aquilo que antes já tinha sentido por você.</li>
+            <li>✨ 2. Porque teu sorriso ilumina meu dia, mesmo quando está nublado.</li>
+            <li>✨ 3. Porque teus olhos sempre me dizem mais do que as palavras.</li>
+            <li>✨ 4. Porque tua risada é o som mais bonito que já ouvi.</li>
+            <li>✨ 5. Porque você sabe exatamente como me acalmar quando estou ansioso.</li>
+            <li>✨ 6. Porque contigo, até os momentos mais simples se tornam inesquecíveis.</li>
+            <li>✨ 7. Porque me ensina algo novo sem nem perceber.</li>
+        </ul>
+
+        <button class="button" onclick="revelarMaisMotivos(1)">Revelar mais motivos</button>
+        
+        <div id="motivosAdicionais1" class="hidden">
+            <ul>
+                <li>✨ 8. Porque tem um jeito único de transformar qualquer lugar em lar.</li>
+                <li>✨ 9. Porque nossos abraços se encaixam perfeitamente.</li>
+                <li>✨ 10. Porque me faz sentir seguro e protegido sem precisar dizer nada.</li>
+            </ul>
+            <button class="button" onclick="revelarMaisMotivos(2)">Revelar mais motivos</button>
+        </div>
+
+        <div id="motivosAdicionais2" class="hidden">
+            <ul>
+                <li>✨ 11. Porque tem um senso de humor que combina perfeitamente com o meu.</li>
+                <li>✨ 12. Porque sempre respeita meu espaço e, ao mesmo tempo, sabe quando preciso de você.</li>
+                <li>✨ 13. Porque me olha de um jeito que faz meu coração disparar.</li>
+                <li>✨ 14. Porque consegue entender o que estou sentindo sem que eu precise explicar.</li>
+                <li>✨ 15. Porque cada "eu te amo" que irá dizer pra mim, sei que será sincero e especial.</li>
+                </ul>
+                <button class="button" onclick="revelarMaisMotivos(3)">Revelar mais motivos</button>
+                </div>
+
+                <div id="motivosAdicionais3" class="hidden">
+                    <ul>
+                <li>✨ 16. Porque tem paciencia comigo até quando eu não tenho comigo mesmo.</li>
+                <li>✨ 17. Porque me inspira a ser uma pessoa melhor todos os dias.</li>
+                <li>✨ 18. Porque me apoia nos meus sonhos, mesmo quando pareço duvidar deles.</li>
+                <li>✨ 19. Porque tua voz me acalma, mesmo nas piores tempestades.</li>
+                <li>✨ 20. Porque consegue fazer com que qualquer dia normal pareça um dia especial.</li>
+                <li>✨ 21. Porque quando estou contigo, o tempo parece passar diferente.</li>
+                <li>✨ 22. Porque nossas piadas internas são as melhores kkkkk.</li>
+                <li>✨ 23. Porque faz me sentir especial, mesmo nas pequenas coisas.</li>
+                    </ul>
+                    <button class="button" onclick="revelarMaisMotivos(4)">Revelar mais motivos</button>
+                </div>
+
+                <div id="motivosAdicionais4" class="hidden">
+                    <ul>
+                <li>✨ 24. Porque me olha como se eu fosse a pessoa mais incrível do mundo, e sei que não sou nem perto disso né.</li>
+                <li>✨ 25. Porque sabe o que dizer quando eu mais preciso ouvir.</li>
+                <li>✨ 26. Porque é meu lugar favorito no mundo.</li>
+                <li>✨ 27. Porque até no silêncio ao teu lado me sinto bem, desculpa ficar sempre tão quieto somente te olhando, vou melhorar isso, mas é que você é tão lindo e acabo me perdendo em pensamentos.</li>
+                <li>✨ 28. Porque me faz acreditar no amor de um jeito que eu nunca imaginei.</li>
+                <li>✨ 29. Porque sua companhia me basta, independente de onde estejamos.</li>
+                <li>✨ 30. Porque sempre encontra uma maneira de me surpreender.</li>
+
+            </ul>
+            <button class="button" onclick="revelarMaisMotivos(5)">Revelar mais motivos</button>
+                </div>
+
+                <div id="motivosAdicionais5" class="hidden">
+                    <ul>
+                        <li>✨ 31. Porque teu jeito de cuidar de mim é único e insubstituível.</li>
+                        <li>✨ 32. Porque posso ser completamente eu mesmo contigo.</li>
+                        <li>✨ 33. Porque cada momento ao teu lado é um presente.</li>
+                        <li>✨ 34. Porque me faz rir até quando eu não quero kkkk vc tentando fazer eu rir e eu todo tentando ficar serio kkkk.</li>
+                        <li>✨ 35. Porque vejo um futuro lindo quando penso em nós dois.</li>
+                        <li>✨ 36. Porque teu cheiro ficou gravado na minha memória e é um dos meus lugares favoritos, serio eu amo seu cheiro de um jeito inimaginável.</li>
+                        <li>✨ 37. Porque teu toque tem o poder de me acalmar e fazer meu dia melhor.</li>
+                        <li>✨ 38. Porque amo a maneira como fala sobre as coisas que você gosta, só poderia pegar mais leve com as minhas mscs ok. </li>
+                        <li>✨ 39. Porque entre todas as pessoas no mundo, eu escolheria te amar todos os dias.</li>
+                    </ul>
+
+        </div>
+    </section>
+
+    <div class="pergunta">Você me ama? 💕</div>
+    <button class="button" onclick="responderSim()">Sim</button>
+    <button class="button" id="botaoNao" onmouseover="moverBotao()">Não</button>
+
+    <footer>
+        <p>Te amo hoje, amanhã e sempre.</p>
+    </footer>
+
+    <script>
+        function revelarMaisMotivos(num) {
+            const motivos = document.getElementById('motivosAdicionais' + num);
+            motivos.classList.remove('hidden');
+            setTimeout(() => motivos.classList.add('show'), 10);
+        }
+
+        function responderSim() {
+            alert("Awwwn, eu sabia! Você é o amor da minha vida! 💖🥰");
+            for (let i = 0; i < 10; i++) {
+                let firework = document.createElement("div");
+                firework.className = "fireworks";
+                firework.style.left = Math.random() * window.innerWidth + "px";
+                firework.style.top = Math.random() * window.innerHeight + "px";
+                firework.style.backgroundColor = ["red", "pink", "yellow"][Math.floor(Math.random() * 3)];
+                document.body.appendChild(firework);
+                setTimeout(() => document.body.removeChild(firework), 1000);
+            }
+        }
+
+        function moverBotao() {
+            let botao = document.getElementById('botaoNao');
+            let largura = window.innerWidth - 100;
+            let altura = window.innerHeight - 50;
+            botao.style.left = Math.random() * largura + "px";
+            botao.style.top = Math.random() * altura + "px";
+        }
+    </script>
+
+</body>
+</html>
